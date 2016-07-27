@@ -36,8 +36,17 @@ manage.py runserver: error: unrecognized arguments: --DJANGO_SETTINGS_MODULE=mys
 * step 7
 * step 8
 * step 9
+
+ * lol
+
 * step 10
+
+ * need to add import django.views.generic import TemplateView
+
 * step 11
+
+ * unclear which path to use - or both? or? :c
+ 
 * step 12  
 typo:  
 
