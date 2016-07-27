@@ -21,6 +21,18 @@ bomb ass tutorial: http://gregblogs.com/how-the-do-i-build-a-django-django-rest-
   * in the class def need (model.Models):
   
 * step 6
+
+ * this is what happens: 
+ ```  
+ python manage.py runserver --DJANGO_SETTINGS_MODULE=mysite.settings.dev
+usage: manage.py runserver [-h] [--version] [-v {0,1,2,3}]
+                           [--settings SETTINGS] [--pythonpath PYTHONPATH]
+                           [--traceback] [--no-color] [--ipv6] [--nothreading]
+                           [--noreload] [--nostatic] [--insecure]
+                           [addrport]
+manage.py runserver: error: unrecognized arguments: --DJANGO_SETTINGS_MODULE=mysite.settings.dev
+```  
+
 * step 7
 * step 8
 * step 9
