@@ -46,7 +46,21 @@ manage.py runserver: error: unrecognized arguments: --DJANGO_SETTINGS_MODULE=mys
 * step 11
 
  * unclear which path to use - or both? or? :c
- 
+ * webrack returns this, guessing because we define routesConfig later on:
+``` 
+Version: webpack 1.13.1
+Time: 1753ms
+    Asset     Size  Chunks             Chunk Names
+bundle.js  1.83 MB       0  [emitted]  main
+    + 6 hidden modules
+
+ERROR in ./app/app.js
+
+/Users/Rose/projects/djangular-htf/frontend/app/app.js
+  25:32  error  'routesConfig' is not defined  no-undef
+
+✖ 1 problem (1 error, 0 warnings)
+``` 
 * step 12  
 typo:  
 
