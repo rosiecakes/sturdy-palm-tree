@@ -46,6 +46,7 @@ manage.py runserver: error: unrecognized arguments: --DJANGO_SETTINGS_MODULE=mys
 * step 11
 
  * unclear which path to use - or both? or? :c
+ * at some point before we try localhost:8000 for the first time we need to `python manage.py makemigrations` and `migrate`  
  * webrack returns this, guessing because we define routesConfig later on:
 ``` 
 Version: webpack 1.13.1
@@ -63,5 +64,4 @@ ERROR in ./app/app.js
 ``` 
 * step 12  
 typo:  
-
-> Learn *by* NOT to do var that = this; over at my friend's blog!
+ > Learn *by* NOT to do var that = this; over at my friend's blog!
