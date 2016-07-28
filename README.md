@@ -48,20 +48,22 @@ manage.py runserver: error: unrecognized arguments: --DJANGO_SETTINGS_MODULE=mys
  * unclear which path to use - or both? or? :c
  * at some point before we try localhost:8000 for the first time we need to `python manage.py makemigrations` and `migrate`  
  * webrack returns this, guessing because we define routesConfig later on:
-``` 
-Version: webpack 1.13.1
-Time: 1753ms
-    Asset     Size  Chunks             Chunk Names
-bundle.js  1.83 MB       0  [emitted]  main
-    + 6 hidden modules
-
-ERROR in ./app/app.js
-
-/Users/Rose/projects/djangular-htf/frontend/app/app.js
-  25:32  error  'routesConfig' is not defined  no-undef
-
-✖ 1 problem (1 error, 0 warnings)
-``` 
+ ``` 
+ Version: webpack 1.13.1
+ Time: 1753ms
+     Asset     Size  Chunks             Chunk Names
+ bundle.js  1.83 MB       0  [emitted]  main
+     + 6 hidden modules
+ 
+ ERROR in ./app/app.js
+ 
+ /Users/Rose/projects/djangular-htf/frontend/app/app.js
+   25:32  error  'routesConfig' is not defined  no-undef
+ 
+ ✖ 1 problem (1 error, 0 warnings)
+ ``` 
 * step 12  
-typo:  
+
+ * typo:  
+ 
  > Learn *by* NOT to do var that = this; over at my friend's blog!
